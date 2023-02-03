@@ -1,0 +1,130 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(0, 94, 255);
+    opacity: 70%;
+    border-radius: 14em;
+  }
+  
+  li {
+    float: left;
+    border-right:1px solid rgb(255, 255, 255);
+  }
+  
+  li:last-child {
+    border-right: none;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: rgb(255, 0, 0);
+  }
+  
+  .active {
+    background-color: #29cb00;
+  }
+
+  .box {
+    background-color: rgb(0, 94, 255);
+    border-radius: 1em;
+    height: 3cm;
+    margin-top: 400px;
+    opacity: 100%;
+    position: relative;
+    z-index: 1;
+  }
+
+img{
+    position: absolute;
+    transform: translate(-50% -50%);
+    top: 50%;
+    left: 13%;
+    filter: drop-shadow(10px 10px 10px rgba(0,0,0,0.6));
+}
+
+ .img2{
+    position: absolute;
+    transform: translate(-50% -50%);
+    top: 50%;
+    left: 43%;
+    filter: drop-shadow(10px 10px 10px rgba(0,0,0,0.6));
+}
+
+
+h1 {
+    text-align: center;
+    font-size: 60px;
+    color: rgb(255, 255, 255);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-image: url("https://i.ibb.co/6HsDSny/pexels-marta-branco-1194713.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.lui {
+  text-align: left;                                                                         
+  font-size: 15px;
+  margin-right: 35%;
+  margin-top: -9%;
+  opacity: 70%;
+  position: relative;
+  z-index: 1;
+}                                           
+
+.olta {
+  text-align: left;                                                                         
+  font-size: 13px;
+  margin-left: 27%;
+  margin-top: -8%;
+  opacity: 70%;
+  position: relative;
+  z-index: 1;
+}                                           
+
+.yt {
+  display: block;
+  height: auto;
+  left: 4%;
+  position: absolute;
+  top: 57%;
+  width: 100%;
+}
+
+.yt2 {
+  display: block;
+  height: auto;
+  left: 75%;
+  position: absolute;
+  top: 57%;
+  width: 100%;
+}
+
+button {
+  background-color: rgb(0, 94, 255);
+  border: none;
+  color: azure;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 23px;
+  margin: 4px 2px;
+  cursor: pointer;
+  margin-left: 42%;
+  margin-top: 2%;
+  border-radius: 4em;
+  padding: 15px 32px;
+}
